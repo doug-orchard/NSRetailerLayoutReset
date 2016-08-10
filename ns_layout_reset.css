@@ -1,0 +1,208 @@
+.contentbar{
+	left: auto;
+	right: auto;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	padding: 10px 30px 0 30px;
+}
+.contentbar #left,
+.contentbar #right,
+.contentbar #center{
+	box-sizing: border-box;
+}
+.contentbar #left{
+	width: 20%;
+	margin-left: -80%;
+}
+.contentbar #right{
+	width: 20%;
+	margin-right: -20%;
+	margin-left: 20%;
+}
+.contentbar #center{
+	width: 60%;
+	margin-left: 20%;
+	margin-right: -20%;
+	border-left: 10px solid #fff;
+	border-right: 10px solid #fff;
+}
+.contentbar #centerplist{
+	width: calc(80% - 20px);
+	padding-top: 0;
+	margin-right: -100%;
+	margin-left: 20%;
+	border-left: 10px solid #fff;
+}
+.contentbar #centerplist .products{
+	margin: 0;
+	width: 100%;
+}
+.contentbar #leftplist{
+	width: 20%;
+	padding-top: 0;
+	border-right: 10px solid #fff;
+}
+.itembox,
+.itembox .head,
+.itembox .head h4,
+.itembox .body,
+.itembox .body .item,
+.itembox .body .item p,
+.itembox .body .item .contentwrapper,
+.itembox .mainhead,
+.itembox .mainbody
+.tabbed .tabs{
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	padding: 0 !important;
+	width: 100% !important;
+	overflow: hidden;
+}
+.itembox .body .item p{
+	padding-top: 10px !important;
+}
+.itembox .body .item{
+	padding-bottom: 10px !important;
+}
+.itembox .head{
+	margin-bottom: 10px;
+}
+.itembox .head h4{
+padding: 0 10px !important;
+}
+
+.itembox .mainbody .left,
+.itembox .mainbody .right,
+.itembox .mainbody .center{
+	margin: 0;
+}
+/* Promotions */
+#left .itembox .mainbody,
+#center .itembox .mainbody,
+#right .itembox .mainbody {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+/* Center promotions */
+#center .newsinglebox .left{
+	width: 100%;
+}
+#center .newdoublebox .left,
+#center .newdoublebox .right{
+	width: 50%;
+}
+#center .newtriplebox .left,
+#center .newtriplebox .center,
+#center .newtriplebox .right{
+	width: 33.33%;
+}
+#center .itembox .left,
+#center .itembox .center,
+#center .itembox .right{
+	box-sizing: border-box;
+	border-left: 5px solid #fff;
+	border-right: 5px solid #fff;
+}
+#center .itembox .left{
+	border-left: none;
+}
+#center .itembox .right{
+	border-right: none;
+}
+
+#left .itembox .itembar,
+#center .itembox .itembar,
+#right .itembox .itembar{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border-top: 0;
+	position: relative;
+}
+#center .itembox .left table,
+#center .itembox .center table,
+#center .itembox .right table{
+	top: 11px;
+    float: right;
+	height: 35px;
+	position: relative;
+	text-align: right;
+    margin-top: -10px;
+}
+#center .itembox .left table em,
+#center .itembox .center table em,
+#center .itembox .right table em{
+    color: inherit;
+}
+#center .itembox .left table em.price,
+#center .itembox .center table em.price,
+#center .itembox .right table em.price{
+	font-size: 20px;
+}
+#center .itembox .left .itembar > div:first-child,
+#center .itembox .center .itembar > div:first-child,
+#center .itembox .right .itembar > div:first-child{
+	float: left;
+    width: 100% !important;
+    height: 48px;
+    border-top: none;
+}
+#center .itembox .left .itembar .action,
+#center .itembox .center .itembar .action,
+#center .itembox .right .itembar .action,
+#center .itembox .left .itembar .actionbutton,
+#center .itembox .center .itembar .actionbutton,
+#center .itembox .right .itembar .actionbutton{
+    margin: 0;
+	width: 100%;
+    height: 100%;
+    color: inherit;
+	text-align: left;
+	position: absolute;
+}
+#center .itembox .left .itembar .action > b,
+#center .itembox .center .itembar .action > b,
+#center .itembox .right .itembar .action > b{
+	display: block;
+	margin-top: 17px;
+}
+#center .itembox .left .itembar > div:first-child + div,
+#center .itembox .center .itembar > div:first-child + div,
+#center .itembox .right .itembar > div:first-child + div{
+	display: none;
+}
+#center .itembox .left .itembar > div:first-child + div + div,
+#center .itembox .center .itembar > div:first-child + div + div,
+#center .itembox .right .itembar > div:first-child + div + div{
+	position: absolute;
+	bottom: 100%;
+	height: 35px;
+}
+#center .itembox .left .itembar > div:first-child + div + div > a,
+#center .itembox .center .itembar > div:first-child + div + div > a,
+#center .itembox .right .itembar > div:first-child + div + div > a{
+	font-size: 14px;
+	padding: 0;
+	margin: 10px 0 0 -7px;
+	color: inherit;
+}
+
+/* Right promotions */
+#right .itembox{
+	border-bottom: none !important;
+}
+#right .itembox .itembar{
+	height: 50px;
+	background-color: #f1f1f1;
+}
+#right .itembox .itembar a{
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	line-height: 4.5;
+}
